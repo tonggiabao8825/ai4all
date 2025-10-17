@@ -1,12 +1,11 @@
 # Site
-name: 'Mundana'
-description: 'Mundana is a free Jekyll theme for awesome people like you, Medium like.'
+name: 'Ai4ALL'
+description: 'AI4ALL - Artificial Intelligent For All-of-us'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-baseurl: '/mundana-theme-jekyll'
-disqus: 'demowebsite'
-email: 'wowthemesnet@gmail.com'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+baseurl: ''
+disqus: 'AI4ALL'
+email: 'ai4all@gmail.com'
 
 include: ["_pages"]
 permalink: /:title/
@@ -19,21 +18,21 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    sal:
-      name:           Sal
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar1.jpg
-      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
-      email:          wowthemesnet@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+    baro:
+      name:           Baro
+      site:           https://github.com/tonggiabao8825
+      avatar:         /assets/images/baro.jpeg
+      bio:            "Admin Baro - AI4ALL."
+      email:          baro@ai4all.com
+      twitter:        https://x.com/tonggiabao8825
 
-    jane:
-      name:           Jane
-      site:           https://www.wowthemes.net
+    hieu:
+      name:           Hieu
+      site:           https://github.com/hieudev
       avatar:         /assets/images/avatar2.jpg
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+      bio:            "Admin Hieu - AI4ALL."
+      email:          hieu@ai4all.com
+      twitter:        https://twitter.com/hieu_ai4all
  
 # Defaults
 defaults:
@@ -43,7 +42,7 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
+      author: baro
       avatar: /assets/images/avatar1.jpg
       
   # all pages

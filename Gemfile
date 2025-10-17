@@ -1,5 +1,4 @@
 source "https://rubygems.org"
-ruby RUBY_VERSION
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -7,6 +6,9 @@ ruby RUBY_VERSION
 #
 #     bundle exec jekyll serve
 #
+
+gem 'jekyll', '~> 4.3'
+gem 'webrick', '~> 1.8'
 
 # If you have any plugins, put them here!
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
