@@ -89,17 +89,35 @@ Tóm tắt và kết luận...
 ### Quy tắc viết bài
 
 1. **Cấu trúc rõ ràng**: Dùng heading `##`, `###` để phân chia nội dung
-2. **Code blocks**: Luôn ghi rõ ngôn ngữ
+
+2. **Code blocks**: 
+   - **Quan trọng**: Code phải nằm giữa 3 dấu backtick (```)
+   - Luôn ghi rõ ngôn ngữ sau backtick đầu để có syntax highlighting
+   - Giữ nguyên thụt lề của code (đặc biệt với Python)
+   
+   Ví dụ:
+   ````markdown
    ```python
-   # Python code
+   def hello_world():
+       print("Hello AI4ALL!")
    ```
-   ```javascript
-   // JavaScript code
-   ```
+   ````
+   
+   Các ngôn ngữ được hỗ trợ:
+   - `python` - Python code
+   - `javascript` hoặc `js` - JavaScript
+   - `java` - Java
+   - `bash` hoặc `shell` - Shell commands
+   - `sql` - SQL queries
+   - `json` - JSON data
+   - `html` - HTML markup
+   - `css` - CSS styles
+   
 3. **Ảnh minh họa**: Dùng markdown syntax
    ```markdown
    ![Mô tả ảnh](URL-hoặc-đường-dẫn-ảnh)
    ```
+
 4. **Định dạng văn bản**:
    - **In đậm**: `**text**`
    - *In nghiêng*: `*text*`
@@ -114,6 +132,15 @@ Tóm tắt và kết luận...
    f(x) = \sum_{i=1}^{n} w_i x_i + b
    $$
    ```
+
+### 🎨 Styling Features
+
+Website có các tính năng giao diện đẹp:
+
+- **VS Code-like Syntax Highlighting**: Code blocks có màu sắc giống VS Code Dark theme
+- **Language Badge**: Tự động hiển thị nhãn ngôn ngữ ở góc code block
+- **Responsive Design**: Tối ưu cho cả desktop và mobile
+- **Dark/Light Mode**: Tự động chuyển đổi theo theme hệ thống
 
 ### Ví dụ bài viết hoàn chỉnh
 
@@ -134,6 +161,23 @@ bundle exec jekyll serve
 ## 📦 Deploy
 
 Website tự động deploy lên GitHub Pages khi push code lên nhánh `main`.
+
+### Cấu hình cho custom domain
+
+1. Trong `_config.yml`, đặt `baseurl: ''` (để rỗng cho custom domain)
+2. Nếu deploy với repo URL, dùng `baseurl: '/ai4all'`
+3. Tạo file `CNAME` với nội dung là domain của bạn (nếu dùng custom domain)
+4. Cấu hình DNS:
+   - A record trỏ về IP GitHub Pages: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
+   - Hoặc CNAME record trỏ về `username.github.io`
+
+### Xử lý conflict khi push
+
+Nếu gặp lỗi "non-fast-forward", chạy:
+```bash
+git pull origin main --rebase
+git push origin main
+```
 
 
 
