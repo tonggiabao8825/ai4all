@@ -1,51 +1,146 @@
-# Jekyll Theme - Mundana by WowThemes.net
+# AI4ALL - Artificial Intelligent For All-of-us
 
-[Live Demo](https://wowthemesnet.github.io/mundana-theme-jekyll/) &nbsp; | &nbsp; 
-[Download](https://github.com/wowthemesnet/mundana-theme-jekyll/archive/master.zip) &nbsp; | &nbsp; 
-[Buy me a coffe](https://www.wowthemes.net/donate/) &nbsp; | &nbsp; [Documentation](https://bootstrapstarter.com/mundana-theme-jekyll/) &nbsp; | &nbsp; 
-[WordPress version](https://www.wowthemes.net/themes/mundana-wordpress/) 
+Trang blog chia sẻ kiến thức về AI, Machine Learning, Deep Learning, Backend Development và các dự án cá nhân.
 
-![mundana jekyll theme screenshot](assets/images/screenshot.jpg)
+## 👥 Tác giả
 
-### Documentation
+- **Baro**  - Author
+- **Hieu** - Author
 
-[How to install & use](https://bootstrapstarter.com/bootstrap-templates/mundana-theme-jekyll/)
+## 🚀 Giới thiệu
 
-### Contribute to Mundana repository
+AI4ALL là nơi chúng tôi chia sẻ:
+- Kiến thức về Deep Learning, Neural Networks, Computer Vision
+- Hướng dẫn Backend Development với Python, FastAPI, Node.js
+- Các dự án AI thực tế và case studies
+- Kinh nghiệm học tập và nghiên cứu
 
-1. In the top-right corner of this page, click **Fork**.
+## 📝 Hướng dẫn viết bài
 
-2. Clone a copy of your fork on your local, replacing *YOUR-USERNAME* with your Github username.
+### Cấu trúc file bài viết
 
-   `git clone https://github.com/YOUR-USERNAME/mundana-theme-jekyll.git`
+Tất cả bài viết được lưu trong thư mục `_posts/` với tên file theo format:
+```
+YYYY-MM-DD-ten-bai-viet.md
+```
 
-3. **Create a branch**: 
+Ví dụ: `2025-10-14-neural-networks-explained.md`
 
-   `git checkout -b <my-new-feature-or-fix>`
+### Template bài viết cơ bản
 
-4. **Make necessary changes and commit those changes**:
+```markdown
+---
+layout: post
+title: "Tiêu đề bài viết của bạn"
+date: 2025-10-14 14:30:00 +0700
+author: baro
+categories: [deep-learning, neural-networks]
+tags: [AI, machine-learning, tutorial]
+image: https://link-to-your-cover-image.jpg
+excerpt: "Mô tả ngắn gọn về bài viết (hiển thị trong preview)"
+---
 
-   `git add .`
+## Giới thiệu
 
-   `git commit -m "new feature or fix"`
+Nội dung giới thiệu về chủ đề...
 
-5. **Push changes**, replacing `<add-your-branch-name>` with the name of the branch you created earlier at step #3. :
+## Phần 1: Tiêu đề phần
 
-   `git push origin <add-your-branch-name>`
+Nội dung chi tiết...
 
-6. Submit your changes for review. Go to your repository on GitHub, you'll see a **Compare & pull request** button. Click on that button. Now submit the pull request.
+### Tiểu mục
 
-That's it! Soon I'll be merging your changes into the master branch of this project. You will get a notification email once the changes have been merged. Thank you for your contribution.
+Giải thích chi tiết hơn...
+
+```python
+# Code example
+def hello_world():
+    print("Hello AI4ALL!")
+```
+
+## Kết luận
+
+Tóm tắt và kết luận...
+
+---
+```
+
+### Các trường quan trọng trong Front Matter
+
+- **layout**: Luôn dùng `post`
+- **title**: Tiêu đề bài viết (bắt buộc)
+- **date**: Ngày giờ đăng bài theo format `YYYY-MM-DD HH:MM:SS +0700`
+- **author**: `baro` hoặc `hieu` (phải khớp với tên trong `_config.yml`)
+- **categories**: Danh mục chính (ví dụ: `deep-learning`, `backend`, `projects`)
+- **tags**: Từ khóa liên quan
+- **image**: URL ảnh đại diện (hiển thị ở trang chủ và đầu bài)
+- **excerpt**: Mô tả ngắn (tối đa 2-3 câu)
+
+### Categories thường dùng
+
+- `deep-learning` - Các bài về Deep Learning
+- `machine-learning` - Machine Learning cơ bản
+- `computer-vision` - Thị giác máy tính
+- `nlp` - Xử lý ngôn ngữ tự nhiên
+- `backend` - Backend Development
+- `projects` - Các dự án thực tế
+- `tutorial` - Hướng dẫn chi tiết
+
+### Quy tắc viết bài
+
+1. **Cấu trúc rõ ràng**: Dùng heading `##`, `###` để phân chia nội dung
+2. **Code blocks**: Luôn ghi rõ ngôn ngữ
+   ```python
+   # Python code
+   ```
+   ```javascript
+   // JavaScript code
+   ```
+3. **Ảnh minh họa**: Dùng markdown syntax
+   ```markdown
+   ![Mô tả ảnh](URL-hoặc-đường-dẫn-ảnh)
+   ```
+4. **Định dạng văn bản**:
+   - **In đậm**: `**text**`
+   - *In nghiêng*: `*text*`
+   - `Code inline`: `` `code` ``
+   - > Trích dẫn: `> text`
+
+5. **Công thức toán học** (dùng KaTeX):
+   - Inline: `$E = mc^2$`
+   - Block:
+   ```markdown
+   $$
+   f(x) = \sum_{i=1}^{n} w_i x_i + b
+   $$
+   ```
+
+### Ví dụ bài viết hoàn chỉnh
+
+Xem file: `_posts/2025-10-14-neural-networks-explained.markdown`
+
+## 🛠️ Chạy local
+
+```bash
+# Cài đặt dependencies
+bundle install
+
+# Chạy server local
+bundle exec jekyll serve
+
+# Truy cập: http://localhost:4000
+```
+
+## 📦 Deploy
+
+Website tự động deploy lên GitHub Pages khi push code lên nhánh `main`.
 
 
-### Copyright
 
-Copyright (C) 2019 WowThemes.net.
+## 📧 Liên hệ
 
-Theme designed and developed by [Sal](https://www.wowthemes.net), *free* under MIT license. 
+- Email: ai4all@gmail.com
 
-<a href="https://www.wowthemes.net/donate/" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+---
 
-### Live Demo
-
-[Live Demo](https://wowthemesnet.github.io/mundana-theme-jekyll/)
+**Mục đích**: Trang web này được tạo ra để ôn tập, lưu trữ và chia sẻ kiến thức về AI, backend, và các dự án cá nhân.
