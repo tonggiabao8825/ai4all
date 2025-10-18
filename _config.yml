@@ -3,7 +3,7 @@ name: 'AI4ALL'
 description: 'AI4ALL - Artificial Intelligent For All-of-us'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-baseurl: '/ai4all'
+baseurl: ''
 disqus: 'AI4ALL'
 email: 'ai4all@gmail.com'
 
