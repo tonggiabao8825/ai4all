@@ -76,6 +76,7 @@ Mỗi nơ-ron gồm 3 phần chính:
   - **Output (đầu ra)** giống như **tín hiệu truyền qua axon** sang nơ-ron khác.  
 
 
+
 Một **mạng nơ-ron nhân tạo (Artificial Neural Network)** được tạo thành từ nhiều **nơ-ron (neurons)** kết nối với nhau.  
 Về cơ bản, mạng gồm **3 phần chính** như sau:
 
