@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Một số kỹ thuật Clean Code cho Prompt Template trong Python"
-date: 2025-11-20 22:31:00 +0700
+date: 2025-11-20 16:31:00 +0700
 author: baro
 categories: [ai, machine-learning, clean-code]
 tags: [llm, python, rag, prompt-engineering, jinja2]
