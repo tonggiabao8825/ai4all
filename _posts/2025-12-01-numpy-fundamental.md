@@ -63,6 +63,6 @@ Các bạn hay chơi tài xỉu chắc chắn biết về tính random của m�
 -----------------------------------------------------------------------------------
 <b>Vừa rồi là preview nhanh về nội dung của bài chia sẻ này. Để đọc chi tiết và thực hành, mình sẽ để link notebook ở đây. 
 
-!https://colab.research.google.com/drive/1Yjx4E1KSztzrsV5HYFoEdTNCm5KLR3oI?usp=sharing#scrollTo=Z-PCe_bk-HXK
+(https://colab.research.google.com/drive/1Yjx4E1KSztzrsV5HYFoEdTNCm5KLR3oI?usp=sharing#scrollTo=Z-PCe_bk-HXK)
 
 ---
