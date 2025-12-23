@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Numpy fundamental - Chia sẻ tài liệu giảng dạy về buổi dạy Numpy cho lớp Python Fundamental"
-date: 2025-11-15 22:31:00 +0700
+date: 2025-12-01 22:31:00 +0700
 author: baro
 categories: [ai, machine-learning]
 tags: [llm, data-format, beginner]
@@ -63,6 +63,6 @@ Các bạn hay chơi tài xỉu chắc chắn biết về tính random của m�
 -----------------------------------------------------------------------------------
 <b>Vừa rồi là preview nhanh về nội dung của bài chia sẻ này. Để đọc chi tiết và thực hành, mình sẽ để link notebook ở đây. 
 
-https://colab.research.google.com/drive/1Yjx4E1KSztzrsV5HYFoEdTNCm5KLR3oI?usp=sharing#scrollTo=Z-PCe_bk-HXK
+!https://colab.research.google.com/drive/1Yjx4E1KSztzrsV5HYFoEdTNCm5KLR3oI?usp=sharing#scrollTo=Z-PCe_bk-HXK
 
 ---
