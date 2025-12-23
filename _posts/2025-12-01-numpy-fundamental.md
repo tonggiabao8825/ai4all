@@ -6,7 +6,7 @@ author: baro
 categories: [ai, machine-learning]
 tags: [llm, data-format, beginner]
 image: https://user-images.githubusercontent.com/67586773/105037297-c8bd5900-5a83-11eb-801e-d382e69ec071.jpeg
-excerpt: "Bạn mới làm quen với AI và LLM? TOON giúp bạn gửi dữ liệu JSON vào prompt mà không tốn nhiều token. Bài viết này giải thích đơn giản, với ví dụ dễ theo dõi, để bạn nhanh chóng áp dụng."
+excerpt: "Trong python, khi làm việc với các tính toán đại số trên ma trận và véc tơ thì chúng ta chủ yếu sử dụng numpy. Numpy là viết tắt của cụm từ numerical python tức là thư viện số học của Python. Chính vì vậy các chức năng chính của thư viện này tập trung vào hỗ trợ và tối ưu các tính toán trên dữ liệu mảng nhiều chiều (multidimensional array)."
 ---
 
 ![Numpy](https://user-images.githubusercontent.com/67586773/105037297-c8bd5900-5a83-11eb-801e-d382e69ec071.jpeg)
